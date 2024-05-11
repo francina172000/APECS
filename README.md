@@ -29,11 +29,14 @@ python3 Edge_Server.py
 ```
 python3 User_Edge.py
 ```
-4. Once all the above three steps are done, proceed to the OCR Upload page. The implemented service is image to text using Google's Tesseract OCR.
-5. Output will be given as a downloadable txt file.
+4. Access the User registration using http://<IP_ADDR>:8001/ and access the upload file using http://<IP_ADDR>:8001/upload-file
+5. Access AIA Dashboard at https://<IP_ADDR>:5000/login
+6. Once all the above three steps are done, proceed to the OCR Upload page. The implemented service is image to text using Google's Tesseract OCR.
+7. Output will be given as a downloadable txt file.
 
-#### Known Bug
-Install Script is buggy and fails at installation of GMP (should be fixed in the future).
+#### Default Passwords
+Password to register with the AIA: companySLU
+Password to access AIA Dashboard: dsouza5451
 
 ### Implemented by referring to the following paper
 https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Z1KsnyIAAAAJ&citation_for_view=Z1KsnyIAAAAJ:7PzlFSSx8tAC
